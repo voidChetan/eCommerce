@@ -1,0 +1,41 @@
+.textBlur {
+    color: transparent;
+    text-shadow: 0 0 1px #202122;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+a:hover {
+    color: red !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+
+}
+
+.box-shadow {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-fluid {
+    height: 300px !important;
+}
+
+.cart::after {
+    display: none !important;
+}
+ 
+.dropdown-menu{
+    top: 100%;
+    left: unset !important;
+    right: 0px !important;
+    margin-top: var(--bs-dropdown-spacer);
+}
+.CartContainer {
+    width: 300px;
+    padding: 5px;
+}
